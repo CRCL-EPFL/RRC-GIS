@@ -4,7 +4,7 @@ This repo is meant as a collaborative digital platfrom to exchange files and too
 
 ## 1. Install [Anaconda](https://www.anaconda.com/products/distribution#Downloads)
 
-## 2. & 3. Create a Conda environment, and Install COMPAS, COMPAS_FAB & COMPAS_RRC using Conda
+## 2. Create a Conda environment, and Install COMPAS, COMPAS_FAB & COMPAS_RRC using Conda
 
 + in terminal [mac] / anaconda prompt [win]:
 Creating the environment and installing COMPAS, COMPAS_FAB & COMPAS_RRC
@@ -19,7 +19,7 @@ Creating the environment and installing COMPAS, COMPAS_FAB & COMPAS_RRC
 `(rrcgis) python -m compas`
 
 
-## 4. Add the Compas libraries to Rhino’s Python paths
+## 3. Add the Compas libraries to Rhino’s Python paths
 
 + in terminal `(rrcgis) python -m compas_rhino.install -v 7.0`
 
@@ -29,7 +29,7 @@ Creating the environment and installing COMPAS, COMPAS_FAB & COMPAS_RRC
 `_Grasshopper` Check the presence of a COMPAS FAB tab
 
 
-## 5. Install Visual Studio Code + Docker and compose up the image file
+## 4. Install Visual Studio Code + Docker and compose up the image file
 
 + Download & Install [Visual Studio Code](https://code.visualstudio.com/)
 + Download & Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
@@ -39,7 +39,7 @@ Creating the environment and installing COMPAS, COMPAS_FAB & COMPAS_RRC
 + Start Docker Desktop
 + In Visual Studio Code, right click on the appropriate docker compose image, and compose up
 
-## 6. Open the Robot Playground grasshopper file
+## 5. Open the Robot Playground grasshopper file
 
 + Open the file ABB_GoFa_robot_playground_RRCGIS_01.gh located in RRC-GIS/10_playgrounds/
 + Connect to ROS (Docker) and Load the robot
