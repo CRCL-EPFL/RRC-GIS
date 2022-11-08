@@ -1,0 +1,12 @@
+name: rrcgis
+channels:
+    - conda-forge
+
+dependencies:
+   - python=3.8
+   - pip
+   - git
+   - compas=1.*
+   - compas_fab>=0.24
+   - compas_cgal>=0.4
+   - compas_rrc
